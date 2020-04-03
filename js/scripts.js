@@ -13,7 +13,8 @@ numbers.forEach(function(number) {
 });
   
 
-  
+//1. userInput that is nonNumber will get "alert" 
+//2. userInput that is  
 
 
 
