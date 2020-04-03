@@ -1,8 +1,13 @@
 //business logic
 
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
+
+//split? slice? includes? forEach? ma? includes? push? join?
+
 var phrase= function(number) {
 
-  if (number) {
+  if (number === 1) {
+    alert('hi"')
 
   }
 
