@@ -21,6 +21,12 @@ _-Example Output: Sorry, not a number!_
 -Example Input: "4"
 -Example Output: "0, 1, 2, 3, 4"
 
+* _Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"_
+
+* _Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"_
+
+* _Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"_
+
 ## **Support and Contact Details**
 
 _Feel free to add and contribute. If support is needed, contact Maria at 8088800088_
