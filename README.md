@@ -6,7 +6,7 @@
 
 ## **Description**
 
-_This is the Beep, Boop, Won't You Be My Neighbor Project. THis project is a website that takes a users inputted number and will return: Beep, Boop, Wont you be my neighbor?_
+_This is the Beep, Boop, Won't You Be My Neighbor Project. THis project is a website that takes a users inputted number and will return: Beep, Boop, Won't you be my neighbor?_
 
 ## **Program Setup Instructions**
 
