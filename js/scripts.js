@@ -7,12 +7,13 @@
 
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
 numbers.forEach(function(number){
-  alert(number)
+  
+  
 
 
 
-if (number > 0) {
-  alert("hi");
+if (number === 1) {
+  alert("beep");
 }else {alert ("bye");
 
 };
@@ -35,7 +36,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     var numbers = parseInt($("numberInput").val())
-      var result = phrase(number)
+      //var result = translate(number)
   
     
   });
