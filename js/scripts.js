@@ -14,7 +14,11 @@ numbers.forEach(function(number){
 
 if (number === 1) {
   alert("beep");
-}else {alert ("bye");
+}else if (number === 2) {
+  alert("boop");
+}else if (number === 3){
+  alert("won't you be my neightbor");
+}else {alert (number + "bye");
 
 };
 });
