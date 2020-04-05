@@ -14,15 +14,12 @@ _Click on link above_
 
 ## Specs on Beep Boop
 
-* _Non numbers will get a: Sorry, not a number!_ _-Example Input: A_ 
-_-Example Output: Sorry, not a number!_
-
 * _The program will return a range of numbers from 0 to the users inputted number_
 -Example Input: "4"
 -Example Output: "0, 1, 2, 3, 4"
 
 * _Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"_
-_Example Input: 11
+-Example Input: 11
 -Example Output: "Beep"
 
 
