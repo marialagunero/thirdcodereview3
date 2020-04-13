@@ -1,8 +1,8 @@
 //business logic
   
-  
-//if index contains a 1 replace with "Beep" show new Array
-//else if index contains 2 replace with "Boop" show new Array
+//index for array of myNumbers 
+//if index contains a 1 replace with "Beep" show new array
+//else if index contains 2 replace with "Boop" show new array
 //else if index contains 3 replace with "Wont you be my neighbor?" show new Array
 //order logic 3, 2, 1 most to least (?) 
 //display in UI
@@ -40,10 +40,12 @@ $(document).ready(function() {
   $("form#number").submit(function(event) {
     event.preventDefault();
 
-    myNumbers = [];
+    var myNumbers = [];
 
     var numbers = $("#numberInput").val();
+    
     $("#numberOutput").text(translate().toString());
+    //$("#numberOutput").show();
     
   
     
