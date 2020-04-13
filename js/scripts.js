@@ -1,37 +1,27 @@
 //business logic
-//1. userInput that is nonNumber will get "alert" 
-
-//var nonNumber= use regex?
-
-//2. userInput that is number will get "alert"
-
-var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
-numbers.forEach(function(number){
   
   
+//if index contains a 1 replace with "Beep" show new Array
+//else if index contains 2 replace with "Boop" show new Array
+//else if index contains 3 replace with "Wont you be my neighbor?" show new Array
+//order logic 3, 2, 1
+//display in UI
+
+var myNumbers = [];
+var translate
+for(let i = 0; i < userInput; i ++)
 
 
-
-if (number === 1) {
+if (myNumber === 1) {
   alert("beep");
-}else if (number === 2) {
+}else if (myNumber === 2) {
   alert("boop");
-}else if (number === 3) {
-  alert("won't you be my neightbor");
-}else {alert (number);
+}else if (myNumber === 3) {
+  alert("won't you be my neighbor");
+}else {alert(myNumber);
 
 };
 });
-
-
-
-//split? slice? includes? forEach? map? includes? push? join?
-
-
-
-
-
-
 
 
 //user interface logic
@@ -39,8 +29,8 @@ $(document).ready(function() {
   $("form#number").submit(function(event) {
     event.preventDefault();
 
-    var numbers = parseInt($("numberInput").val())
-      //var result = translate(number)
+    var numbers = parseInt($("#numberInput").val())
+    //var result = translate(myNumber) 
   
     
   });
