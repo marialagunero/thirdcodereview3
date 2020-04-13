@@ -4,25 +4,32 @@
 //if index contains a 1 replace with "Beep" show new Array
 //else if index contains 2 replace with "Boop" show new Array
 //else if index contains 3 replace with "Wont you be my neighbor?" show new Array
-//order logic 3, 2, 1 most to least (?)
+//order logic 3, 2, 1 most to least (?) 
 //display in UI
+
+//?for loop
+//?array.forEach()
+//?includes()
+//match?
+//regex?
+//toString()?
 
 var myNumbers = [];
 var translate = function() {
   var userInput = $("#numberInput").val();
-  for (i = 0; i <= userInput; i ++) {
+  for (let i = 0; i <= userInput; i ++) {
     if(i.toString().includes(3)){
       myNumbers.push("Won't you be my neighbor")
-    }else if(i.toString().includes(2)){
+    }else if(i.toString().includes(2)) {
       myNumbers.push("Boop")
-    }else if(i.toString().includes(1)){
+    }else if(i.toString().includes(1)) {
       myNumbers.push("Beep")
-    }else{
+    }else {
       myNumbers.push(i);
     }
     }
 
-    return myNumbers
+    return myNumbers;
     }
 
 
@@ -33,9 +40,9 @@ $(document).ready(function() {
   $("form#number").submit(function(event) {
     event.preventDefault();
 
-    myNumbers = []
+    myNumbers = [];
 
-    var numbers = parseInt($("#numberInput").val());
+    var numbers = $("#numberInput").val();
     $("#numberOutput").text(translate().toString());
     
   
